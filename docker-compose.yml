@@ -1,6 +1,7 @@
 name: tds-car-park
 services:
   api:
+    container_name: "api"
     build:
       context: .
       dockerfile: src/CarPark.Api/Dockerfile
@@ -20,6 +21,7 @@ services:
     volumes:
       - ./certs/aspnetapp.pfx:/home/app/.aspnet/https/aspnetapp.pfx:z
   db:
+    container_name: "db"
     image: postgres:latest
     environment:
       POSTGRES_DB: "carpark"
