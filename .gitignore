@@ -1,0 +1,61 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userprefs
+*.log
+*.bak
+*.ncb
+*.aps
+*.pch
+*.idb
+*.lib
+*.sbr
+*.res
+*.tlb
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+*.builds
+*.pidb
+*.booproj
+*.dep
+*.resharper
+*.dotSettings
+*.csproj.user
+*.resharper.user
+*.resharper.solution
+*.cache
+*.sdf
+*.vshost.*
+*.testsettings
+*.trx
+*.webtest
+*.csdproj.user
+*.dbmdl
+*.jfm
+*.pfx
+*.snk
+# JetBrains Rider
+.idea/
+*.sln.iml
+# NuGet packages
+packages/
+
+# Visual Studio Code (if used by some team members)
+.vscode/
+
+# Node.js (if applicable)
+node_modules/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Generated certificate
+/certs/aspnetapp.pfx
